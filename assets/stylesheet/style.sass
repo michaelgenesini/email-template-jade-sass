@@ -1,0 +1,101 @@
+*
+	margin: 0
+	padding: 0
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
+	font-size: 100%
+	line-height: 1.6
+
+body
+	background-color: #f6f6f6
+	-webkit-font-smoothing: antialiased
+	-webkit-text-size-adjust: none
+	width: 100%!important
+	height: 100%
+
+.container
+	background-color: #fff
+	border: 1px solid #f0f0f0
+	border-radius: 3px
+	margin: 1em
+	padding: 1em 2em
+	display: block!important
+	max-width: 600px!important
+	clear: both!important
+
+.logo
+	margin-top: 1em
+	margin-bottom: 1em
+	& img
+		max-height: 50px
+
+// ------------------------------------- 
+//		ELEMENTS 
+//------------------------------------- */
+a
+	color: #348eda
+	text-decoration: none
+
+// ------------------------------------- 
+//		BODY 
+//------------------------------------- */
+table.body-wrap 
+	width: 100%
+	padding: 20px
+
+table.body-wrap .container
+	border: 1px solid #f0f0f0
+
+
+// ------------------------------------- 
+//		FOOTER 
+//------------------------------------- */
+table.footer-wrap 
+	width: 100%
+	clear: both!important
+
+.footer-wrap .container p
+	font-size: 12px
+	color: #666
+
+table.footer-wrap a
+	color: #999
+
+// ------------------------------------- 
+//		TYPOGRAPHY
+//------------------------------------- 
+h1,h2,h3
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+	line-height: 1.1
+	margin-bottom: 15px
+	color: #000
+	margin: 40px 0 10px
+	line-height: 1.2
+	font-weight: 200
+
+h1
+	font-size: 36px
+h2
+	font-size: 28px
+h3
+	font-size: 22px
+
+p, ul
+	margin-bottom: 10px 
+	font-weight: normal 
+	font-size: 14px
+
+ul li
+	margin-left: 5px
+	list-style-position: inside
+
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content
+	padding: 20px
+	max-width: 600px
+	margin: 0 auto
+	display: block
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table
+	width: 100%
